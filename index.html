@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="DateData.js"></script>
+    <title>DayDots</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <h1>Daydots</h1>
+                <h2>View Date:</h2>
+                <input type="date" id="DateInput" name="starting-date">
+                <h2>Count Today: <input type="checkbox" id="IncludeToday" checked> </h2>
+                <hr>
+                <h3>Create New Daydot</h3>
+                <h3>Days: <input type="number" id="DayInput" name="DayInput" min="1" max="366"><button onclick="AddDayDot()">Add</button></h3>
+                <button id="print-button" onclick="window.print()"><img src="printer.png" class="img-no-select"></button>
+            </div> 
+        </div>
+        <div class="label-container" id="label-container">
+        </div>
+    </div>
+</body>
+</html>

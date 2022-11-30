@@ -52,7 +52,7 @@ function DisplayDots() {
             trashButton.className = "trash-button";
         var trashElement = document.createElement("IMG");
             trashElement.className = "label-object-child trash-icon img-no-select";
-            trashElement.setAttribute("src", "trash.png");
+            trashElement.setAttribute("src", "_images/trash.png");
 
             trashButton.onclick = function (){
                 for (let x = 0; x < DayDotsArray.length; x++) {
